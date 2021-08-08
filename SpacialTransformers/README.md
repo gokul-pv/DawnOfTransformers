@@ -6,7 +6,9 @@ Spatial transformer networks are a generalization of differentiable attention to
 
 Below animation shows the rotated MNIST:
 
-![](D:\Learnings\github\EVA6_Assignments_Session12\SpacialTransformers\Images\1 P_nv_a_Q3LqM9d10XGE3TQ.gif)
+![Figure 1](https://github.com/gokul-pv/EVA6_Assignments_Session12/blob/main/SpacialTransformers/Images/1%20P_nv_a_Q3LqM9d10XGE3TQ.gif)
+
+
 
 
 
