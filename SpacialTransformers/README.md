@@ -26,6 +26,8 @@ Spatial transformer networks boils down to three main components :
 
 ![](https://github.com/gokul-pv/EVA6_Assignments_Session12/blob/main/SpacialTransformers/Images/stn-arch.png)
 
+
+
 ### Localization Net
 
 With **input feature map \*U\***, with width *W*, height *H* and *C* channels, **outputs are \*θ\***, the parameters of transformation *Tθ*. It can be learnt as affine transform as above. Or to be more  constrained such as the used for attention which only contains scaling and translation.
@@ -46,6 +48,7 @@ With **input feature map \*U\***, with width *W*, height *H* and *C* channels, *
 ## Links to Code
 
 Github Link - https://github.com/gokul-pv/EVA6_Assignments_Session12/blob/main/SpacialTransformers/EVA6_Session_12_SpatialTransformer.ipynb
+
 Colab Link - https://colab.research.google.com/github/gokul-pv/EVA6_Assignments_Session12/blob/main/SpacialTransformers/EVA6_Session_12_SpatialTransformer.ipynb
 
 
@@ -346,6 +349,8 @@ Test set: Average loss: 1.0224, Accuracy: 6568/10000 (66%)
 ![Figure](https://github.com/gokul-pv/EVA6_Assignments_Session12/blob/main/SpacialTransformers/Images/stn-result.png)
 
 
+
+We can see from the above image that the Spatial Transformer Network has cropped and resized most of the  images to the center. It has rotated many of the images to an orientation that it feels will be helpful.
 
 ## Reference
 
