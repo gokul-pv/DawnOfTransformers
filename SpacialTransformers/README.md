@@ -13,7 +13,7 @@ There are mainly 3 transformation learnt by STN in the DeepMind paper
 
 Below animation shows the rotated MNIST:
 
-![Figure 1](https://github.com/gokul-pv/EVA6_Assignments_Session12/blob/main/SpacialTransformers/Images/1%20P_nv_a_Q3LqM9d10XGE3TQ.gif)
+![Figure 1](https://github.com/gokul-pv/DawnOfTransformers/blob/main/SpacialTransformers/Images/1%20P_nv_a_Q3LqM9d10XGE3TQ.gif)
 
 
 
@@ -25,7 +25,7 @@ Spatial transformer networks boils down to three main components :
 - The grid generator generates a grid of coordinates in the input image corresponding to each pixel from the output image.
 - The sampler uses the parameters of the transformation and applies it to the input image.
 
-![](https://github.com/gokul-pv/EVA6_Assignments_Session12/blob/main/SpacialTransformers/Images/stn-arch.png)
+![](https://github.com/gokul-pv/DawnOfTransformers/blob/main/SpacialTransformers/Images/stn-arch.png)
 
 
 
@@ -48,9 +48,9 @@ With **input feature map \*U\***, with width *W*, height *H* and *C* channels, *
 
 ## Links to Code
 
-Github Link - https://github.com/gokul-pv/EVA6_Assignments_Session12/blob/main/SpacialTransformers/EVA6_Session_12_SpatialTransformer.ipynb
+Github Link - https://github.com/gokul-pv/DawnOfTransformers/blob/main/SpacialTransformers/SpatialTransformer.ipynb
 
-Colab Link - https://colab.research.google.com/github/gokul-pv/EVA6_Assignments_Session12/blob/main/SpacialTransformers/EVA6_Session_12_SpatialTransformer.ipynb
+Colab Link - https://colab.research.google.com/github/gokul-pv/DawnOfTransformers/blob/main/SpacialTransformers/SpatialTransformer.ipynb
 
 
 
@@ -347,7 +347,7 @@ Test set: Average loss: 1.0224, Accuracy: 6568/10000 (66%)
 
 ## Visualizing the STN results
 
-![Figure](https://github.com/gokul-pv/EVA6_Assignments_Session12/blob/main/SpacialTransformers/Images/stn-result.png)
+![Figure](https://github.com/gokul-pv/DawnOfTransformers/blob/main/SpacialTransformers/Images/stn-result.png)
 
 
 

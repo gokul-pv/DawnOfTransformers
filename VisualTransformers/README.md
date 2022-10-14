@@ -18,7 +18,7 @@ The objective is to explain the following classes from [this](https://github.com
 
 The vision transformer treats an input image as a sequence of patches. 
 
-<img src="https://github.com/gokul-pv/EVA6_Assignments_Session12/blob/main/VisualTransformers/Images/image1.gif" style="zoom: 33%;" />
+<img src="https://github.com/gokul-pv/DawnOfTransformers/blob/main/VisualTransformers/Images/image1.gif" style="zoom: 33%;" />
 
 
 
@@ -46,7 +46,7 @@ How the ViT works in a nutshell:
 
   
   
-  ![embed](https://github.com/gokul-pv/EVA6_Assignments_Session12/blob/main/VisualTransformers/Images/embedding.png)
+  ![embed](https://github.com/gokul-pv/DawnOfTransformers/blob/main/VisualTransformers/Images/embedding.png)
   
   
   
@@ -104,7 +104,7 @@ How the ViT works in a nutshell:
 
 The resulting tensor is passeed into a Transformer. In ViT only the  Encoder is used, the Transformer encoder module comprises a Multi-Head  Self Attention ( MSA ) layer and a Multi-Layer Perceptron (MLP) layer.  The encoder combines multiple layers of Transformer Blocks in a  sequential manner. 
 
-<img src="https://github.com/gokul-pv/EVA6_Assignments_Session12/blob/main/VisualTransformers/Images/vit-07.png" style="zoom: 25%;" />
+<img src="https://github.com/gokul-pv/DawnOfTransformers/blob/main/VisualTransformers/Images/vit-07.png" style="zoom: 25%;" />
 
 ```python
     class Encoder(nn.Module):
@@ -163,7 +163,7 @@ The Block class combines both the attention module and the MLP module with layer
 
 Attention Module is used to perform self-attention operation allowing the model to attend information from different representation subspaces on an input sequence of embeddings. The sequence of operations is as follows :-
 
-<img src="https://github.com/gokul-pv/EVA6_Assignments_Session12/blob/main/VisualTransformers/Images/iz6yaKgHqq.png" style="zoom: 50%;" />
+<img src="https://github.com/gokul-pv/DawnOfTransformers/blob/main/VisualTransformers/Images/iz6yaKgHqq.png" style="zoom: 50%;" />
 
 
 
@@ -259,11 +259,11 @@ Gaussian Error Linear Unit (GELu), an activation function used in the most recen
 
 This activation function takes the form of this equation:
 
-![](https://github.com/gokul-pv/EVA6_Assignments_Session12/blob/main/VisualTransformers/Images/gelu.PNG)
+![](https://github.com/gokul-pv/DawnOfTransformers/blob/main/VisualTransformers/Images/gelu.PNG)
 
 Below is the graph for the gaussian  error linear unit:
 
-![](https://github.com/gokul-pv/EVA6_Assignments_Session12/blob/main/VisualTransformers/Images/gelu_graph.PNG)
+![](https://github.com/gokul-pv/DawnOfTransformers/blob/main/VisualTransformers/Images/gelu_graph.PNG)
 
 
 
